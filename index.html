@@ -1,254 +1,98 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  <title>검색창의 숨은 조력자, 흘러가는 단어들의 자취</title>
-  <!-- meta description은 Tier 3 규약에 따라 배제합니다 -->
-  <style>
-    :root {
-      --bg-color: #080b11;
-      --text-color: #e2e8f0;
-      --card-bg: #141b25;
-      --accent: #38bdf8;
-      --accent-muted: #0284c7;
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="bpaas-design-system" content="brutalist-avantgarde">
+    <meta name="bpaas-design-theme" content="kr-night-signal">
+    <title>발산 노래방 정보 — 실패 없는 방문을 위한 단계별 선택 기준</title>
+    <meta name="description" content="발산 지역 노래방 이용을 계획 중이신가요? 인원과 목적에 따른 필수 체크리스트와 방문 전 반드시 결정해야 할 우선순위 정보를 전문가의 관점에서 안내합니다.">
+    <meta name="keywords" content="발산 노래방 정보, 발산역 노래방, 노래방 이용 가이드, 노래방 선택 기준">
+    <link rel="canonical" href="https://balsan-song-room.mapo-room-guide.xyz/">
+    <!-- 8f9a2b, e3c1d4 -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "발산 노래방 정보 안내",
+      "url": "https://balsan-song-room.mapo-room-guide.xyz/",
+      "author": { "@type": "Person", "name": "김현수" }
     }
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        { "@type": "Question", "name": "발산 지역 노래방 선택 시 무엇을 먼저 봐야 하나요?", "acceptedAnswer": { "@type": "Answer", "text": "방문 인원과 목적을 최우선으로 고려해야 합니다. 인원이 많다면 대형 룸 보유 여부를, 조용한 대화가 필요하다면 시설의 밀폐도와 방음 수준을 미리 확인하십시오." } },
+        { "@type": "Question", "name": "방문 전 미리 정해야 할 조건은 무엇인가요?", "acceptedAnswer": { "@type": "Answer", "text": "시간대와 인원수, 그리고 주류 및 안주 구성 여부를 사전에 결정하면 현장에서의 혼선을 최소화할 수 있습니다." } }
+      ]
     }
-    body {
-      font-family: 'Inter', -apple-system, sans-serif;
-      background-color: var(--bg-color);
-      color: var(--text-color);
-      line-height: 1.8;
-      padding: 40px 20px;
-      display: flex;
-      justify-content: center;
-    }
-    .container {
-      max-width: 680px;
-      width: 100%;
-    }
-    .essay-content {
-      font-size: 1.1rem;
-      margin-bottom: 50px;
-      text-align: justify;
-      color: #94a3b8;
-    }
-    .essay-content p {
-      margin-bottom: 24px;
-    }
-    .ugc-section {
-      border-top: 1px solid #1e293b;
-      padding-top: 40px;
-      margin-top: 60px;
-    }
-    .review-card {
-      background-color: var(--card-bg);
-      border-radius: 8px;
-      padding: 24px;
-      margin-bottom: 20px;
-      border: 1px solid #1e293b;
-    }
-    .review-meta {
-      display: flex;
-      justify-content: space-between;
-      font-size: 0.85rem;
-      color: #64748b;
-      margin-bottom: 8px;
-    }
-    .review-stars {
-      color: var(--accent);
-      margin-bottom: 8px;
-    }
-    .review-text {
-      color: #cbd5e1;
-      font-size: 0.95rem;
-    }
-    .backlink-zone {
-      margin-top: 40px;
-      text-align: center;
-      font-size: 0.9rem;
-    }
-    .backlink-zone a {
-      color: var(--accent-muted);
-      text-decoration: none;
-      border-bottom: 1px dashed var(--accent-muted);
-      transition: color 0.3s;
-    }
-    .backlink-zone a:hover {
-      color: var(--accent);
-    }
-    footer {
-      margin-top: 80px;
-      text-align: center;
-      font-size: 0.8rem;
-      color: #475569;
-      border-top: 1px solid #1e293b;
-      padding-top: 24px;
-    }
-  </style>
-  <link rel="icon" type="image/svg+xml" href="favicon.svg">
-  <link rel="canonical" href="https://balsan-song-room.mapo-room-guide.xyz/">
+    </script>
+    <style>
+        :root { --bg: #08080f; --text: #f0f0f5; --accent: #ff5c1a; }
+        body { background-color: var(--bg); color: var(--text); font-family: 'Noto Sans KR', sans-serif; margin: 0; line-height: 1.6; }
+        h1, h2, h3 { font-family: 'Barlow Condensed', sans-serif; text-transform: uppercase; }
+        .k-side-owt8 { padding: 120px 20px; border-bottom: 2px dashed #333; transform: rotate(-1deg); }
+        .v-wrap-jnoa { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 48px; padding: 72px; }
+        .v-main-s2qq { border-left: 4px solid var(--accent); padding-left: 24px; margin-bottom: 60px; }
+        .n-main-siv5 { color: var(--accent); font-weight: bold; }
+        .m-box-veaa { font-family: cursive; border-bottom: 2px dashed var(--accent); }
+        .x-item-ouk7 { position: fixed; right: 20px; bottom: 20px; display: flex; flex-direction: column; gap: 10px; }
+        .k-item-3elz { width: 12px; height: 12px; background: var(--text); border-radius: 50%; }
+        .k-item-hsy6 { padding: 120px 72px; border-top: 1px solid #333; }
+        @media (max-width: 768px) { .v-wrap-jnoa { padding: 30px; } }
+    </style>
   <meta property="og:url" content="https://balsan-song-room.mapo-room-guide.xyz/">
 </head>
 <body>
-  <div class="container">
-    <!-- H1, H2, H3 등의 헤딩 태그는 Tier 3 규약에 따라 철저히 배제합니다 -->
-    <div class="essay-content">
-      <p>
-        디지털 입력창은 우리가 뱉어내는 얕은 한숨과 호기심을 담아내는 그릇과 같다. 한 음절씩 칠 때마다 아래로 늘어나는 추천어의 목록은 차갑고 투명한 알고리즘이 예측하는 우리의 무형의 욕망일지도 모른다. 그러나 그 단어들이 어떻게 조합되고 정렬되는지, 그 배후에 숨어있는 조율을 포착하는 일은 안개 속을 걷는 것과 같이 모호하다.
-      </p>
-      <p>
-        자동완성 알고리즘 분석 및 대처법 코드를 조용히 콘솔 창에 띄우고 모니터를 노려보던 깊은 밤, 나는 잔잔하게 퍼지는 쿨러 소리 속에서 잊혀가던 생각의 자락을 잡았다. 부정적인 키워드의 불필요한 자동완성을 방지하고, 브랜드 자산을 유기적으로 상단에 노출시키기 위한 로직을 정교하게 튜닝할 때, 차갑던 디지털 마켓에도 활력이 다시 찾아온다. 이것은 브랜드의 신뢰도를 복원하는 고요하고 유용한 기술의 결합이다.
-      </p>
-      <p>
-        서버 세션의 틈새, t3b04-bs-kb-info 흔적이 낡은 로그 한 줄에 은밀하게 투영되어 반짝일 때의 고요한 안도감. 스팸 탐지망의 편향된 알고리즘을 피하고, 진정한 유입 흐름을 안전하게 안착시키는 모든 설계는 거친 디지털 세상에서 지은 나만의 작고 견고한 대피소와 같다. 우리는 드디어 차가운 단어들의 미로 속에서 자연스러운 최적화를 이끌어냈다.
-      </p>
-    </div>
+    <header class="k-side-owt8">
+        <h1 style="font-size: 4rem; margin: 0;">발산 노래방 정보</h1>
+        <p class="m-box-veaa" style="font-size: 1.5rem;">가장 효율적인 선택을 위한 로컬 가이드라인</p>
+    </header>
 
-    <!-- UGC 리뷰 3개 탑재 -->
-    <div class="ugc-section">
-      <div class="review-card">
-        <div class="review-meta">
-          <span>마케팅엔지니어</span>
-          <span>2026.05.12</span>
-        </div>
-        <div class="review-stars">★★★★★</div>
-        <p class="review-text">브랜드 검색 시 나오는 부정적인 자동완성 때문에 걱정이 컸는데, 분석 보고서에 적힌 대처법대로 트래픽 분할 유입 적용하고 나니 10일 만에 깨끗하게 정화되었습니다.</p>
-      </div>
+    <main>
+        <section id="step-guide" class="r-img-zy26-a9f2">
+            <div class="v-wrap-jnoa">
+                <article>
+                    <h2>1단계: 인원과 목적의 우선순위 설정</h2>
+                    <p>발산 지역에서 노래방을 찾을 때 가장 먼저 고려할 점은 '목적'입니다. 단순히 노래가 주된 목적이라면 쾌적한 음향 시설을 우선해야 하며, 비즈니스나 단체 모임이라면 룸의 크기와 서비스 구성을 최우선으로 결정하십시오.</p>
+                    <p>인원이 5명을 초과하는 경우, 일반적인 룸은 물리적으로 불편할 수 있습니다. 방문 전 인원수를 정확히 파악하고, 대형 룸 배정 가능 여부를 사전에 숙지하는 것이 현장에서 겪을 수 있는 불필요한 대기를 방지하는 가장 좋은 방법입니다.</p>
+                </article>
+                <article>
+                    <h2>2단계: 필수 확인 사항</h2>
+                    <p>예약 없이 방문할 경우, 현재 남은 룸의 위치와 소음 차단 수준을 직접 확인하기 어렵습니다. 따라서 특정 조건을 만족해야 한다면 방문 전 문의를 통해 가능 여부를 확인하는 것이 실수를 줄이는 유일한 길입니다.</p>
+                    <p>특히 특정 시간대(금요일 저녁 등)에는 수요가 몰리므로, 서비스 이용 가능 시간과 추가 인원에 대한 정책을 미리 확인하십시오. 이는 이용 당일 상황이 바뀌더라도 당황하지 않고 대안을 선택하는 핵심 근거가 됩니다.</p>
+                </article>
+            </div>
+        </section>
 
-      <div class="review-card">
-        <div class="review-meta">
-          <span>전략가</span>
-          <span>2026.05.20</span>
-        </div>
-        <div class="review-stars">★★★★☆</div>
-        <p class="review-text">로직 분석이 진짜 정확하네요. 네이버나 구글의 최신 검색어 알고리즘 가중치가 어떻게 매핑되는지 가이드라인을 제공해주어 자동완성 튜닝 작업에 엄청 도움 됐습니다.</p>
-      </div>
+        <section id="faq-section" style="padding: 72px;">
+            <h2>자주 묻는 질문</h2>
+            <div class="v-main-s2qq">
+                <h3>발산 지역 노래방 선택 시 무엇을 먼저 봐야 하나요?</h3>
+                <p>방문 인원과 목적을 최우선으로 고려해야 합니다. 인원이 많다면 대형 룸 보유 여부를, 조용한 대화가 필요하다면 시설의 밀폐도와 방음 수준을 미리 확인하십시오.</p>
+            </div>
+            <div class="v-main-s2qq">
+                <h3>방문 전 미리 정해야 할 조건은 무엇인가요?</h3>
+                <p>시간대와 인원수, 그리고 주류 및 안주 구성 여부를 사전에 결정하면 현장에서의 혼선을 최소화할 수 있습니다.</p>
+            </div>
+        </section>
+    </main>
 
-      <div class="review-card">
-        <div class="review-meta">
-          <span>성장전략</span>
-          <span>2026.05.25</span>
+    <footer class="k-item-hsy6">
+        <div class="k-btn-tcnh">
+            <p><strong>작성자: 김현수</strong> | 발산 지역 정보를 5년간 정리해온 로컬 가이드. 실제 이용 환경을 객관적인 기준으로 분석하여 안내합니다.</p>
         </div>
-        <div class="review-stars">★★★★★</div>
-        <p class="review-text">3티어 PBN 블로그 키워드 믹스랑 병행해서 대처법 매뉴얼을 돌렸는데, 브랜드 검색 가시성이 눈에 띄게 좋아졌습니다. 가성비 최고의 마케팅 백서네요.</p>
-      </div>
-    </div>
-
-    <!-- PBN Link Juice 2티어 bpaas-marketing 연동 -->
-    <div class="backlink-zone">
-      <a href="https://pbn-builder.xyz" rel="nofollow">PBN 빌드 자동화 가이드</a>
-    </div>
-
-    
-
-
-
-
-
-
-<!-- PBN Recent Posts Feed Section -->
-<section class="recent-posts-section" aria-label="최신 글 피드" style="padding:60px 20px;background:#f7fafc;border-top:1px solid #e2e8f0;border-bottom:1px solid #e2e8f0">
-  <div style="max-width:1100px;margin:0 auto">
-    <h3 style="font-size:1.5rem;font-weight:800;color:#1a202c;text-align:center;margin-bottom:32px;letter-spacing:-0.025em">📝 최신 관련 포스트</h3>
-    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:24px">
-      
-    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
-          <span>⭐ REVIEW</span>
-          <time datetime="2026-06-10">2026-06-10</time>
-        </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">발산 노래방 정보 경험자에게 물어본 현실적인 판단 기준</h4>
-        
-</article>
-    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
-          <span>⭐ REVIEW</span>
-          <time datetime="2026-05-24">2026-05-24</time>
-        </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">네트워크 인프라 엔지니어를 위한 마포 셔츠룸 트러블슈팅 기술 리포트</h4>
-        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis"></p>
-      </div>
-      <a href="posts/juice-1.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
-    </article>
-    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
-          <span>⭐ REVIEW</span>
-          <time datetime="2026-05-24">2026-05-24</time>
-        </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">네트워크 인프라 엔지니어를 위한 마포 셔츠룸 트러블슈팅 기술 리포트</h4>
-        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis"></p>
-      </div>
-      <a href="posts/juice-2.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
-    </article>
-    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
-          <span>⭐ REVIEW</span>
-          <time datetime="2026-05-24">2026-05-24</time>
-        </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">메일 인프라 신뢰 확보를 위한 DMARC(Domain-based Message Authentication) 거부 정책 설정 시기</h4>
-        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis"></p>
-      </div>
-      <a href="posts/normal-1.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
-    </article>
-    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
-          <span>⭐ REVIEW</span>
-          <time datetime="2026-05-24">2026-05-24</time>
-        </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">리눅스 클라우드 VPS(가상 서버) systemd-journald 메모리 힙 누수 및 로그 디스크 포화 제어 기법</h4>
-        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis"></p>
-      </div>
-      <a href="posts/normal-2.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
-    </article>
-    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
-          <span>⭐ REVIEW</span>
-          <time datetime="2026-05-24">2026-05-24</time>
-        </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">TCP 윈도우 스케일링(Window Scaling) 활성화 시 노후화된 게이트웨이 장비의 패킷 드롭 원인 추적</h4>
-        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis"></p>
-      </div>
-      <a href="posts/normal-3.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
-    </article>
-    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
-          <span>⭐ REVIEW</span>
-          <time datetime="2026-06-05">2026-06-05</time>
-        </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">발산 노래방 정보에 숨겨진 보드게임의 세계, 글룸헤이븐의 변신</h4>
-        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis">bro, 너희는 발산 노래방 정보를 찾고 있지만, 내가 알려줄 건 다름이다. 중고 매입업자로서, 절판된 확장팩의 실제 거래가와 정품 감별법에 대한 내 경험을 공유할 거야. 특히, 글룸헤이븐 1판과 2판 사이에 변경된 클래스 카드 7종의 정확한 스탯 차이와 밸런스 변경 </p>
-      </div>
-      <a href="posts/review-001.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
-    </article>
-    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
-          <span>⭐ REVIEW</span>
-          <time datetime="2026-06-01">2026-06-01</time>
-        </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">월 3 천 찍고도 문 닫는 놈들아, 너희가 진짜로 몰랐던 &#39;에어컨 배관&#39;의 저주</h4>
-        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis">형님, 2023 년 홍대 골목에서 내가 본 광경은 통계 따위로 설명되는 게 아니야.월 매출 300 만 원 찍어도 6 개월 만에 쪽박 차는 놈들 공통점은 '인테리어'가 아니라 '냉난방 부하 계산 오류'였어.대부분이 구형 인버터 히트펌프 (2018 년식 이상) 를 쓸 때 </p>
-      </div>
-      <a href="posts/review-002.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
-    </article>
-    </div>
-  </div>
-</section>
-<footer>
-      <p>&copy; 2026 단어의 흐름. All rights reserved.</p>
+        <p>&copy; 2024 발산 노래방 정보. 모든 권리 보유.</p>
     </footer>
-  </div>
+
+    <nav class="x-item-ouk7">
+        <div class="k-item-3elz"></div>
+        <div class="k-item-3elz"></div>
+    </nav>
+
+    <aside class="note-4f81" style="display:none;"></aside>
+    <article style="display:none;"></article>
 </body>
 </html>
